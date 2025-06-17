@@ -1,6 +1,6 @@
 context:
   name: saml-auth-proxy
-  version: "1.16.0"
+  version: "1.16.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/itzg/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: bd14d125c4baeafdf70cf9dbfa7cb30b6ab763aab0344bf79436069d3c43d915
+  sha256: 8d46dacb2f913bbbeeb151e1b9001e046986ec6b09547009ca0c82cd00cd3c5d
   target_directory: src
 
 build:
