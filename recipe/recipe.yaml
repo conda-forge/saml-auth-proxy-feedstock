@@ -38,7 +38,7 @@ about:
   summary: Provides a SAML SP authentication proxy for backend web services
   license: MIT
   license_file:
-    - src/LICENSE
+    - src/LICENSE.txt
     - library_licenses/
   repository: https://github.com/itzg/saml-auth-proxy
   documentation: https://github.com/itzg/saml-auth-proxy
