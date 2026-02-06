@@ -18,7 +18,7 @@ build:
     - if: unix
       then: go build -v -o $PREFIX/bin/saml-auth-proxy
       else: go build -v -o %LIBRARY_BIN%\saml-auth-proxy.exe
-  number: 0
+  number: 1
 
 requirements:
   build:
