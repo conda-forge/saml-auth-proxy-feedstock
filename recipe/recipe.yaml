@@ -1,6 +1,6 @@
 context:
   name: saml-auth-proxy
-  version: "1.17.6"
+  version: "1.18.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/itzg/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: efc8bc201946c7e3b34603ecb5c3fd74755e7c4071fe279a767620a7f29af57d
+  sha256: cc9cb4c9c8602359831ac3919524d4b558dcbb77bc4ca099f8eb2c8245b31da4
   target_directory: src
 
 build:
@@ -18,7 +18,7 @@ build:
     - if: unix
       then: go build -v -o $PREFIX/bin/saml-auth-proxy
       else: go build -v -o %LIBRARY_BIN%\saml-auth-proxy.exe
-  number: 1
+  number: 0
 
 requirements:
   build:
